@@ -36,17 +36,28 @@
             white-space: pre;
           }
     }
-    #newsletter {
-        border: 1px solid rgb(141, 107, 107);
-        padding: 15px;
+   
+}
+
+#newsletter {
+    border: 1px solid #000000;
+    padding: 15px;
+    font-family: $font2;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    &:link {
         font-family: $font2;
         text-transform: uppercase;
-        margin-left: 2rem;
-        a:link {
-            font-family: $font2;
-            text-transform: uppercase;
-            text-decoration: none;
-            color: black;
-        }
+        text-decoration: none;
+        color: #000000;
+    }
+    &:hover {
+        font-family: $font2;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #878787;
+        border: 1px solid #887788;
     }
 }
+
+

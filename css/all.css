@@ -489,18 +489,26 @@ h1 {
   white-space: pre;
 }
 
-.footer-text #newsletter {
-  border: 1px solid #8d6b6b;
+#newsletter {
+  border: 1px solid #000000;
   padding: 15px;
   font-family: "caslongraphiqueefregular";
   text-transform: uppercase;
   margin-left: 2rem;
 }
 
-.footer-text #newsletter a:link {
+#newsletter:link {
   font-family: "caslongraphiqueefregular";
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: #000000;
+}
+
+#newsletter:hover {
+  font-family: "caslongraphiqueefregular";
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #878787;
+  border: 1px solid #887788;
 }
 /*# sourceMappingURL=all.css.map */
