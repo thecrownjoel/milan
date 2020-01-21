@@ -1,0 +1,210 @@
+:root {
+    --bg-color: #ffffff;
+}
+.main-container {
+
+    max-width: 1260px;
+    background-color: var(--bg-color);
+    margin: auto;
+    padding: 0em 5em 0em 5em;
+    padding-top: 1em;
+
+}
+
+.main-heading {
+    margin-top: 5em;
+
+    h2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        font-family: $font2;
+        letter-spacing: 7px;
+        padding-bottom: 1.5em;
+    }
+
+    h2:before,
+    h2:after {
+        content: '';
+        border-top: 1px solid;
+        margin: 0 20px 0 0;
+        flex: 1 0 20px;
+        color: #cfd3d0;
+    }
+    
+    h2:after {
+        margin: 0 0 0 20px;
+    }
+
+}
+
+.posts-container {
+    max-width: 1260px;
+    // background: #f7f7f7 url('../../img/angle-bg.svg');
+    background-color: #ffffff;
+    margin: auto;
+    padding: 0em 5em 5em 5em;
+}
+
+.posts-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+
+    .the-btn {
+        padding-left: 2em;
+        padding-top: 3em;
+        a:link {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 1em;
+            border: 1px solid #000000;
+            text-decoration: none;
+            font-family: $font2;
+            text-transform: uppercase;
+    
+        }
+        a:visited {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 1em;
+            border: 1px solid #000000;
+            text-decoration: none;
+            font-family: $font2;
+            text-transform: uppercase;
+    
+        }
+        a:hover {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 1em;
+            border: 1px solid #000000;
+            text-decoration: none;
+            transition: all .25s;
+            font-family: $font2;
+            text-transform: uppercase;
+    
+        }
+        a:active {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 1em;
+            border: 1px solid #000000;
+            text-decoration: none;
+            font-family: $font2;
+            text-transform: uppercase;
+        }
+        
+    }
+}
+
+
+
+.line-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin-left: 5em;
+    justify-content: center;
+    padding: .2em;
+
+    .the-date {
+        font-family: $font1;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding-left: 2.7em;
+        align-items: flex-end;
+        border-left: 1px solid #000000;
+        letter-spacing: .3em;
+
+    }
+
+    .the-title {   
+        padding-top: 2em;
+        padding-left: 2em;
+        max-width: 600px;
+        border-left: 1px solid #000000;
+        h2 {
+            font-size: 1.3em;
+            font-family: $font1;
+            text-transform: uppercase;
+        }
+
+        a:link {
+            color: #000000;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #000000;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
+        a:active {
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+    
+    .the-excerpt {
+        font-family: $font3;
+        line-height: 2.1em;
+        padding-top: 1em;
+        padding-left: 2em;
+        max-width: 800px;
+        border-left: 1px solid #000000;
+    }
+
+    
+}
+
+
+
+
+.posts-wrapper:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+    
+    .line-col:nth-child(2)  {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        justify-content: center;
+        margin: 0;
+        padding-right: 5em;
+        
+    }
+
+
+}
+
+#line-box {
+    width: 60em;
+    height: 5em;
+    background-color: #f7f7f7;
+    margin: auto;
+    margin-top: 50px;
+    .vl {
+        border-left: 1px solid black;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        // top: 10%;
+        margin: -10px;
+      }
+      img {
+          display: flex;
+          justify-content: center;
+      }
+}

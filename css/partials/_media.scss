@@ -1,0 +1,26 @@
+// ## ALL MEDIA QUERIES ## // 
+
+
+// Creating the tablet and mobile menu
+
+@media only screen and (max-width: 1114px) {
+
+   .navigation {
+       display: none;
+   }
+   .socials {
+       display: none;
+   }
+}
+
+
+  @media only screen and (min-width: 1114px) {
+
+    nav {
+        display: none;
+    }
+    
+}
+
+
+
