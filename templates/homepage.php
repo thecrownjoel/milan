@@ -70,9 +70,10 @@
 
   <div id="line-box">
     <div class="vl"></div>
-    <img src="https://i.ibb.co/VHTPzts/bird.png" />
   </div>
-
+ <div id="bird-box">
+ <img src="https://i.ibb.co/VHTPzts/bird.png" />
+</div>
 
 </div>
 

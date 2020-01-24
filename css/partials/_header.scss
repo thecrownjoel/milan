@@ -7,11 +7,12 @@
 
 }
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
 
 $font1: 'Libre Baskerville', serif;
 $font2: 'caslongraphiqueefregular';
 $font3: 'Montserrat', sans-serif;
+
 
 
 
@@ -69,7 +70,7 @@ header {
 .navigation {
     li {
         a:link {
-            font-family: 'caslongraphiqueefregular';
+            font-family: $font1;
             font-size: 1.2rem;
             text-transform: uppercase;
             text-decoration: none;
@@ -77,25 +78,16 @@ header {
             padding: 10px;
         }
         a:visited {
-            font-family: 'caslongraphiqueefregular';
-            font-size: 1.2rem;
-            text-transform: uppercase;
             text-decoration: none;
             color: #000000;
             padding: 10px;
         }
         a:hover {
-            font-family: 'caslongraphiqueefregular';
-            font-size: 1.2rem;
-            text-transform: uppercase;
             background-color: #000000;
             color: #ffffff;
             padding: 10px;
         }
         a:active {
-            font-family: 'caslongraphiqueefregular';
-            font-size: 1.2rem;
-            text-transform: uppercase;
             text-decoration: none;
             color: #000000;
             padding: 10px;

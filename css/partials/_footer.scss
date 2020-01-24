@@ -45,6 +45,9 @@
     font-family: $font2;
     text-transform: uppercase;
     margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
     &:link {
         font-family: $font2;
         text-transform: uppercase;

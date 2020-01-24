@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap");
 @font-face {
   font-family: 'caslongraphiqueefregular';
   src: url("https://projects.45press.com/joel/milan/wp-content/themes/milan/fonts/caslongraphiqueef-webfont.woff2") format("woff2"), url("https://projects.45press.com/joel/milan/wp-content/themes/milan/fonts/caslongraphiqueef-webfont.woff") format("woff");
@@ -71,7 +71,7 @@ header {
 }
 
 .navigation li a:link {
-  font-family: 'caslongraphiqueefregular';
+  font-family: "Libre Baskerville", serif;
   font-size: 1.2rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -80,27 +80,18 @@ header {
 }
 
 .navigation li a:visited {
-  font-family: 'caslongraphiqueefregular';
-  font-size: 1.2rem;
-  text-transform: uppercase;
   text-decoration: none;
   color: #000000;
   padding: 10px;
 }
 
 .navigation li a:hover {
-  font-family: 'caslongraphiqueefregular';
-  font-size: 1.2rem;
-  text-transform: uppercase;
   background-color: #000000;
   color: #ffffff;
   padding: 10px;
 }
 
 .navigation li a:active {
-  font-family: 'caslongraphiqueefregular';
-  font-size: 1.2rem;
-  text-transform: uppercase;
   text-decoration: none;
   color: #000000;
   padding: 10px;
@@ -374,12 +365,17 @@ h1 {
 }
 
 .line-col .the-excerpt {
-  font-family: "Montserrat", sans-serif;
-  line-height: 2.1em;
   padding-top: 1em;
   padding-left: 2em;
   max-width: 800px;
   border-left: 1px solid #000000;
+}
+
+.line-col .the-excerpt p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 2.1em;
 }
 
 .posts-wrapper:nth-child(2) {
@@ -416,11 +412,11 @@ h1 {
 }
 
 #line-box {
-  width: 60em;
+  width: 90%;
   height: 5em;
   background-color: #f7f7f7;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 2em;
 }
 
 #line-box .vl {
@@ -431,13 +427,18 @@ h1 {
   margin: -10px;
 }
 
-#line-box img {
+#bird-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#bird-box img {
+  margin-top: 1.5em;
+  margin-left: -1em;
 }
 
 .footer-container {
@@ -495,6 +496,14 @@ h1 {
   font-family: "caslongraphiqueefregular";
   text-transform: uppercase;
   margin-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 #newsletter:link {

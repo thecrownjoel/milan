@@ -155,12 +155,16 @@
     }
     
     .the-excerpt {
-        font-family: $font3;
-        line-height: 2.1em;
         padding-top: 1em;
         padding-left: 2em;
         max-width: 800px;
         border-left: 1px solid #000000;
+        p {
+            font-family: $font3;
+            font-weight: 300;
+            font-size: 1em;
+            line-height: 2.1em;
+        }
     }
 
     
@@ -190,11 +194,11 @@
 }
 
 #line-box {
-    width: 60em;
+    width: 90%;
     height: 5em;
     background-color: #f7f7f7;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 2em;
     .vl {
         border-left: 1px solid black;
         height: 100px;
@@ -203,8 +207,13 @@
         // top: 10%;
         margin: -10px;
       }
-      img {
-          display: flex;
-          justify-content: center;
-      }
+}
+
+#bird-box {
+    display: flex;
+    justify-content: center;
+    img {
+        margin-top: 1.5em;
+        margin-left: -1em;
+    }
 }
