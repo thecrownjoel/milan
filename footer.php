@@ -12,7 +12,7 @@
 
 </div>
 
-
+<p>hello from the footer</p>
 
 <?php wp_footer(); ?>
 
